@@ -1,0 +1,11 @@
+BU PAKET EXE DEGILDIR. Windows EXE dosyasini otomatik uretmek icin hazir GitHub Actions projesidir.
+
+1. GitHub uzerinde yeni bir PRIVATE repository olusturun.
+2. ZIP icerigini (policem_real_app ve .github klasorleri dahil) repository kokune yukleyin.
+3. Actions > Windows Portable EXE > Run workflow secin.
+4. Islem bitince Actions sayfasindaki Policem_Windows_Portable artifact dosyasini indirin.
+5. ZIP'i acin, Policem.exe dosyasina cift tiklayin. Python kurmaniz gerekmez.
+6. Tarayici http://127.0.0.1:8000 adresinde acilir. Ilk hesap kaydi bos veritabaninda yapilir.
+
+UYARI: Windows EXE bu ortamda derlenip Windows uzerinde test EDILMEDI. GitHub derlemesi basarisiz olabilir; hata kaydina gore duzeltmek gerekir.
+UYARI: Bu paket gercek musteri verileri icin uretim-guvenli kabul edilmemelidir.
